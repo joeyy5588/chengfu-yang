@@ -7,26 +7,20 @@
     },
     {
         "icon":"bullhorn",
-        "title":"I'll be attending ACL 2023 to share my short paper! [Link]",
-        "date":"2021/06/28",
-        "link":"https://arxiv.org/abs/2305.11383"
+        "title":"I'll be attending EMNLP 2023 to share my paper! [Link]",
+        "date":"2023/12/3",
+        "link":"https://arxiv.org/abs/2310.12344"
     },
     {
         "icon":"bullhorn",
-        "title":"I'll be fulfilling the four-month mandatory military services starting from 02/09 (I will only be able to reply to emails on weekends).",
-        "date":"2021/02/03",
-        "link":""
-    },
-    {
-        "icon":"bullhorn",
-        "title":"I'm applying for Ph.D. in U.S. right now!!",
-        "date":"2021/11/18",
-        "link":""
+        "title":"I'll be attending NeurIPS 2022 to share my paper! [Link]",
+        "date":"2022/11/28",
+        "link":"https://arxiv.org/abs/2209.12343"
     },
     {
         "icon":"star",
-        "title":"Just set up this website.",
-        "date":"2021/11/16",
+        "title":"Start my PhD journey @ UCLANLP.",
+        "date":"2022/9/1",
         "link":""
     }
 ]

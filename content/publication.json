@@ -48,8 +48,8 @@
         "accept_rate" : "",
         "links" : {
             "paper" : "https://arxiv.org/abs/2209.12343",
-            "code" : "",
-            "bibtex" : "https://github.com/joeyy5588/P2C",
+            "code" : "https://github.com/joeyy5588/P2C",
+            "bibtex" : "",
             "slides" : "",
             "talk" : ""
         }
@@ -59,7 +59,7 @@
         "paper_title" : "Target-free Text-guided Image Manipulation",
         "author_list" : "Wan-Cyuan Fan, Cheng-Fu Yang, Qiao-An Yang, Yu-Chiang Frank Wang",
         "conference" : "AAAI 2023",
-        "accept_rate" : "acceptance rate: further 15.5%",
+        "accept_rate" : "",
         "links" : {
             "paper" : "https://arxiv.org/abs/2211.14544",
             "code" : "",
@@ -75,7 +75,7 @@
         "conference" : "CVPR 2022",
         "accept_rate" : "",
         "links" : {
-            "paper" : "ttps://arxiv.org/abs/2205.02958",
+            "paper" : "https://arxiv.org/abs/2205.02958",
             "code" : "",
             "bibtex" : "",
             "slides" : "",
@@ -102,8 +102,8 @@
         "accept_rate" : "",
         "links" : {
             "paper" : "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.html",
-            "code" : "",
-            "bibtex" : "https://github.com/davidhalladay/LayoutTransformer",
+            "code" : "https://github.com/davidhalladay/LayoutTransformer",
+            "bibtex" : "",
             "slides" : "",
             "talk" : ""
         }
