@@ -1,0 +1,6 @@
+@article{kung2021multi,
+  title={Multi-task learning for situated multi-domain end-to-end dialogue systems},
+  author={Kung, Po-Nien and Chang, Chung-Cheng and Yang, Tse-Hsuan and Hsu, Hsin-Kai and Liou, Yu-Jia and Chen, Yun-Nung},
+  journal={arXiv preprint arXiv:2110.05221},
+  year={2021}
+}

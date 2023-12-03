@@ -1,0 +1,17 @@
+@inproceedings{kung-etal-2020-zero,
+    title = "Zero-Shot Rationalization by Multi-Task Transfer Learning from Question Answering",
+    author = "Kung, Po-Nien  and
+      Yang, Tse-Hsuan  and
+      Chen, Yi-Cheng  and
+      Yin, Sheng-Siang  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.findings-emnlp.198",
+    doi = "10.18653/v1/2020.findings-emnlp.198",
+    pages = "2187--2197",
+    abstract = "Extracting rationales can help human understand which information the model utilizes and how it makes the prediction towards better interpretability. However, annotating rationales requires much effort and only few datasets contain such labeled rationales, making supervised learning for rationalization difficult. In this paper, we propose a novel approach that leverages the benefits of both multi-task learning and transfer learning for generating rationales through question answering in a zero-shot fashion. For two benchmark rationalization datasets, the proposed method achieves comparable or even better performance of rationalization without any supervised signal, demonstrating the great potential of zero-shot rationalization for better interpretability.",
+}

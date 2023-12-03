@@ -1,0 +1,16 @@
+@inproceedings{kung-etal-2021-efficient,
+    title = "Efficient Multi-Task Auxiliary Learning: Selecting Auxiliary Data by Feature Similarity",
+    author = "Kung, Po-Nien  and
+      Yin, Sheng-Siang  and
+      Chen, Yi-Cheng  and
+      Yang, Tse-Hsuan  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.34",
+    pages = "416--428",
+    abstract = "Multi-task auxiliary learning utilizes a set of relevant auxiliary tasks to improve the performance of a primary task. A common usage is to manually select multiple auxiliary tasks for multi-task learning on all data, which raises two issues: (1) selecting beneficial auxiliary tasks for a primary task is nontrivial; (2) when the auxiliary datasets are large, training on all data becomes time-expensive and impractical. Therefore, this paper focuses on addressing these problems and proposes a time-efficient sampling method to select the data that is most relevant to the primary task. The proposed method allows us to only train on the most beneficial sub-datasets from the auxiliary tasks, achieving efficient multi-task auxiliary learning. The experiments on three benchmark datasets (RTE, MRPC, STS-B) show that our method significantly outperforms random sampling and ST-DNN. Also, by applying our method, the model can surpass fully-trained MT-DNN on RTE, MRPC, STS-B, using only 50{\%}, 66{\%}, and 1{\%} of data, respectively.",
+}

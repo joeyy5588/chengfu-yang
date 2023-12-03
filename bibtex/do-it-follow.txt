@@ -1,0 +1,6 @@
+@article{kung2023models,
+  title={Do Models Really Learn to Follow Instructions? An Empirical Study of Instruction Tuning},
+  author={Kung, Po-Nien and Peng, Nanyun},
+  journal={arXiv preprint arXiv:2305.11383},
+  year={2023}
+}
