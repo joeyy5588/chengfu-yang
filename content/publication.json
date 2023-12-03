@@ -14,56 +14,96 @@
     },
     {
         "year" : 2023, 
-        "paper_title" : "Do Models Really Learn to Follow Instructions? An Empirical Study of Instruction Tuning",
-        "author_list" : "Po-Nien Kung, Nanyun Peng",
-        "conference" : "ACL 2023",
+        "paper_title" : "Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty",
+        "author_list" : "Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao",
+        "conference" : "Arxiv Preprint",
         "accept_rate" : "",
         "links" : {
             "paper" : "https://arxiv.org/abs/2305.11383",
-            "code" : "",
-            "bibtex" : "bibtex/do-it-follow.txt",
+            "code" : "https://github.com/joeyy5588/planning-as-inpainting",
+            "bibtex" : "",
             "slides" : "",
             "talk" : ""
         }
     },
     {
-        "year" : 2021, 
-        "paper_title" : "Efficient Multi-Task Auxiliary Learning: Selecting Auxiliary Data by Feature Similarity",
-        "author_list" : "Po-Nien Kung, Sheng-Siang Yin, Yi-Cheng Chen, Tse-Hsuan Yang, Yun-Nung Chen",
-        "conference" : "EMNLP 2021",
-        "accept_rate" : "oral paper acceptance rate: 8.8%",
-        "links" : {
-            "paper" : "https://aclanthology.org/2021.emnlp-main.34/",
-            "code" : "https://github.com/MiuLab/FastMTL",
-            "bibtex" : "bibtex/fast-mtl.txt",
-            "slides" : "",
-            "talk" : "https://www.youtube.com/watch?v=ATacSGd1hfc"
-        }
-    },
-    {
-        "year" : 2020, 
-        "paper_title" : "Multi-task learning for situated multi-domain end-to-end dialogue systems",
-        "author_list" : "Po-Nien Kung, Chung-Cheng Chang, Tse-Hsuan Yang, Hsin-Kai Hsu, Yu-Jia Liou, Yun-Nung Chen",
-        "conference" : "AAAI 2021 DSTC9 Workshop",
+        "year" : 2023, 
+        "paper_title" : "LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following",
+        "author_list" : "Cheng-Fu Yang, Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, Yu-Chiang Frank Wang, Kai-Wei Chang",
+        "conference" : "EMNLP 2023",
         "accept_rate" : "",
         "links" : {
-            "paper" : "https://arxiv.org/abs/2110.05221",
-            "code" : "",
-            "bibtex" : "bibtex/dstc9.txt",
+            "paper" : "https://arxiv.org/abs/2310.12344",
+            "code" : "https://github.com/joeyy5588/LACMA",
+            "bibtex" : "",
             "slides" : "",
             "talk" : ""
         }
     },
     {
-        "year" : 2020, 
-        "paper_title" : "Zero-Shot Rationalization by Multi-Task Transfer Learning from Question Answering",
-        "author_list" : "Po-Nien Kung, Tse-Hsuan Yang, Yi-Cheng Chen, Sheng-Siang Yin, Yun-Nung Chen",
-        "conference" : "EMNLP 2020 Findings",
+        "year" : 2022, 
+        "paper_title" : "Paraphrasing is all you need for Novel Object Captioning",
+        "author_list" : "Cheng-Fu Yang, Yao-Hung Hubert Tsai, Wan-Cyuan Fan, Yu-Chiang Frank Wang, Louis-Philippe Morency, Ruslan Salakhutdinov",
+        "conference" : "NeurIPS 2022",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "https://arxiv.org/abs/2209.12343",
+            "code" : "",
+            "bibtex" : "https://github.com/joeyy5588/P2C",
+            "slides" : "",
+            "talk" : ""
+        }
+    },
+    {
+        "year" : 2023, 
+        "paper_title" : "Target-free Text-guided Image Manipulation",
+        "author_list" : "Wan-Cyuan Fan, Cheng-Fu Yang, Qiao-An Yang, Yu-Chiang Frank Wang",
+        "conference" : "AAAI 2023",
         "accept_rate" : "acceptance rate: further 15.5%",
         "links" : {
-            "paper" : "https://aclanthology.org/2020.findings-emnlp.198/",
-            "code" : "https://github.com/MiuLab/ZeroShotRationale",
-            "bibtex" : "bibtex/zeroshot-rationale.txt",
+            "paper" : "https://arxiv.org/abs/2211.14544",
+            "code" : "",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },
+    {
+        "year" : 2022, 
+        "paper_title" : "Scene Graph Expansion for Semantics-Guided Image Completion",
+        "author_list" : "Qiao-An Yang, Cheng-Fu Yang, Wan-Cyuan Fan, Cheng-Yo Tan, Meng-Lin Wu, Yu-Chiang Frank Wang",
+        "conference" : "CVPR 2022",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "ttps://arxiv.org/abs/2205.02958",
+            "code" : "",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },{
+        "year" : 2022, 
+        "paper_title" : "Modal Mutual Learning for Audio-Visual Speech Recognition and Manipulation",
+        "author_list" : "Chih-Chun Yang, Cheng-Fu Yang, Wan-Cyuan Fan and Yu-Chiang Frank Wang",
+        "conference" : "AAAi 2022",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "https://ojs.aaai.org/index.php/AAAI/article/view/20210",
+            "code" : "",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },{
+        "year" : 2021, 
+        "paper_title" : "LayoutTransformer: Scene Layout Generation with Conceptual and Spatial Diversity",
+        "author_list" : "Cheng-Fu Yang, Wan-Cyuan Fan, Fu-En Yang and Yu-Chiang Frank Wang",
+        "conference" : "CVPR 2021",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.html",
+            "code" : "",
+            "bibtex" : "https://github.com/davidhalladay/LayoutTransformer",
             "slides" : "",
             "talk" : ""
         }
