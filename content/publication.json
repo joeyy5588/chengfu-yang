@@ -40,20 +40,7 @@
             "talk" : ""
         }
     },
-    {
-        "year" : 2022, 
-        "paper_title" : "Paraphrasing is all you need for Novel Object Captioning",
-        "author_list" : "Cheng-Fu Yang, Yao-Hung Hubert Tsai, Wan-Cyuan Fan, Yu-Chiang Frank Wang, Louis-Philippe Morency, Ruslan Salakhutdinov",
-        "conference" : "NeurIPS 2022",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2209.12343",
-            "code" : "https://github.com/joeyy5588/P2C",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
+    
     {
         "year" : 2023, 
         "paper_title" : "Target-free Text-guided Image Manipulation",
@@ -81,7 +68,22 @@
             "slides" : "",
             "talk" : ""
         }
-    },{
+    },
+    {
+        "year" : 2022, 
+        "paper_title" : "Paraphrasing is all you need for Novel Object Captioning",
+        "author_list" : "Cheng-Fu Yang, Yao-Hung Hubert Tsai, Wan-Cyuan Fan, Yu-Chiang Frank Wang, Louis-Philippe Morency, Ruslan Salakhutdinov",
+        "conference" : "NeurIPS 2022",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "https://arxiv.org/abs/2209.12343",
+            "code" : "https://github.com/joeyy5588/P2C",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },
+    {
         "year" : 2022, 
         "paper_title" : "Modal Mutual Learning for Audio-Visual Speech Recognition and Manipulation",
         "author_list" : "Chih-Chun Yang, Cheng-Fu Yang, Wan-Cyuan Fan and Yu-Chiang Frank Wang",
@@ -94,7 +96,8 @@
             "slides" : "",
             "talk" : ""
         }
-    },{
+    },
+    {
         "year" : 2021, 
         "paper_title" : "LayoutTransformer: Scene Layout Generation with Conceptual and Spatial Diversity",
         "author_list" : "Cheng-Fu Yang, Wan-Cyuan Fan, Fu-En Yang and Yu-Chiang Frank Wang",
