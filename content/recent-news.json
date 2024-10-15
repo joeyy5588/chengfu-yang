@@ -7,6 +7,12 @@
     },
     {
         "icon":"bullhorn",
+        "title":"Two papers have been accepted by EMNLP 2024! [Link]",
+        "date":"2024/10/15",
+        "link":"https://arxiv.org/abs/2406.01495"
+    },
+    {
+        "icon":"bullhorn",
         "title":"Check out our latest paper on a general model for task planning: [Link]",
         "date":"2023/12/5",
         "link":"https://arxiv.org/abs/2312.01097"

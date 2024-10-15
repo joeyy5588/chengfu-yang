@@ -13,10 +13,38 @@
         }
     },
     {
-        "year" : 2023, 
+        "year" : 2024, 
+        "paper_title" : "Re-ReST: Reflection-Reinforced Self-Training for Language Agents",
+        "author_list" : "Zi-Yi Dou, Cheng-Fu Yang, Xueqing Wu, Kai-Wei Chang, Nanyun Peng",
+        "conference" : "EMNLP 2024",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "https://arxiv.org/abs/2406.01495",
+            "code" : "https://github.com/PlusLabNLP/Re-ReST",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },
+    {
+        "year" : 2024, 
+        "paper_title" : "LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning",
+        "author_list" : "Silin Meng, Yiwei Wang, Cheng-Fu Yang, Nanyun Peng, Kai-Wei Chang",
+        "conference" : "EMNLP 2024",
+        "accept_rate" : "",
+        "links" : {
+            "paper" : "https://arxiv.org/abs/2407.02511",
+            "code" : "",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },
+    {
+        "year" : 2024, 
         "paper_title" : "Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty",
         "author_list" : "Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao",
-        "conference" : "Arxiv Preprint",
+        "conference" : "NeurIPS OWA Workshop 2024",
         "accept_rate" : "",
         "links" : {
             "paper" : "https://arxiv.org/abs/2312.01097",
