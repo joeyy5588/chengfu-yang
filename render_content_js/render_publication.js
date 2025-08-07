@@ -1,6 +1,6 @@
 var current_year=-1;
 function render_publication(publication) {
-    var MY_NAME = "Po-Nien Kung";
+    var MY_NAME = "Cheng-Fu Yang";
     console.log(current_year)
     console.log(publication)
     // Check Year difference
