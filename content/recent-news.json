@@ -1,11 +1,5 @@
 [
     {
-        "icon":"star",
-        "title":"Start my internship @ FAIR Perception",
-        "date":"2025/06/23",
-        "link":""
-    },
-    {
         "icon":"bullhorn",
         "title":"One paper have been accepted to COLM 2025! [Link]",
         "date":"2025/07/07",
@@ -16,6 +10,12 @@
         "title":"One paper have been accepted to ICCV 2025! [Link]",
         "date":"2025/06/26",
         "link":"https://arxiv.org/abs/2411.18651"
+    },
+    {
+        "icon":"star",
+        "title":"Start my internship @ FAIR Perception",
+        "date":"2025/06/23",
+        "link":""
     },
     {
         "icon":"bullhorn",
