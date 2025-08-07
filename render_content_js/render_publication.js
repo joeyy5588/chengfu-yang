@@ -38,7 +38,7 @@ function render_publication(publication) {
 }
 $(document).ready(function(){
     $.getJSON("content/publication.json", function(data){
-        for (let index = 1; index < data.length; index++) {
+        for (let index = 0; index < data.length; index++) {
             render_publication(data[index])
         }
         // console.log(data[0]); // Prints: 14

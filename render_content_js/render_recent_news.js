@@ -16,7 +16,7 @@ function render_news(news) {
 }
 $(document).ready(function(){
     $.getJSON("content/recent-news.json", function(data){
-        for (let index = 1; index < data.length; index++) {
+        for (let index = 0; index < data.length; index++) {
             render_news(data[index]);
         }
         // console.log(data[0]); // Prints: 14
