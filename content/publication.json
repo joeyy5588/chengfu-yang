@@ -1,12 +1,25 @@
 [
     {
-        "year" : -1, 
-        "paper_title" : "",
-        "author_list" : "",
-        "conference" : "",
+        "year" : 2025, 
+        "paper_title" : "Customize Multi-modal RAI Guardrails with Precedent-based predictions",
+        "author_list" : "Cheng-Fu Yang, Thanh Tran, Christos Christodoulopoulos, Weitong Ruan, Rahul Gupta, Kai-Wei Chang",
+        "conference" : "COLM 2025",
         "links" : {
-            "paper" : "",
-            "code" : "",
+            "paper" : "https://arxiv.org/abs/2507.20503",
+            "code" : "https://github.com/joeyy5588/Customize-Guardrail",
+            "bibtex" : "",
+            "slides" : "",
+            "talk" : ""
+        }
+    },
+    {
+        "year" : 2025, 
+        "paper_title" : "Verbalized Representation Learning for Interpretable Few-Shot Generalization",
+        "author_list" : "Cheng-Fu Yang, Da Yin, Wenbo Hu, Heng Ji, Nanyun Peng, Bolei Zhou, Kai-Wei Chang",
+        "conference" : "ICCV 2025",
+        "links" : {
+            "paper" : "https://www.arxiv.org/abs/2411.18651",
+            "code" : "https://github.com/joeyy5588/VRL/tree/main",
             "bibtex" : "",
             "slides" : "",
             "talk" : ""

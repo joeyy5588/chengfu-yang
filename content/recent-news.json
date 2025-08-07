@@ -1,26 +1,38 @@
 [
     {
-        "icon":"",
-        "title":"",
-        "date":"",
+        "icon":"star",
+        "title":"Start my internship @ FAIR Perception",
+        "date":"2025/06/23",
         "link":""
     },
     {
         "icon":"bullhorn",
-        "title":"Two papers have been accepted by EMNLP 2024! [Link]",
+        "title":"One paper have been accepted to COLM 2025! [Link]",
+        "date":"2025/07/07",
+        "link":"https://arxiv.org/abs/2507.20503"
+    },
+    {
+        "icon":"bullhorn",
+        "title":"One paper have been accepted to ICCV 2025! [Link]",
+        "date":"2025/06/26",
+        "link":"https://arxiv.org/abs/2411.18651"
+    },
+    {
+        "icon":"bullhorn",
+        "title":"Two papers have been accepted to EMNLP 2024! [Link]",
         "date":"2024/10/15",
         "link":"https://arxiv.org/abs/2406.01495"
     },
     {
         "icon":"bullhorn",
         "title":"Check out our latest paper on a general model for task planning: [Link]",
-        "date":"2023/12/5",
+        "date":"2023/12/05",
         "link":"https://arxiv.org/abs/2312.01097"
     },
     {
         "icon":"bullhorn",
         "title":"I'll be attending EMNLP 2023 to share my paper! [Link]",
-        "date":"2023/12/3",
+        "date":"2023/12/03",
         "link":"https://arxiv.org/abs/2310.12344"
     },
     {
@@ -32,7 +44,7 @@
     {
         "icon":"star",
         "title":"Start my PhD journey @ UCLANLP.",
-        "date":"2022/9/1",
+        "date":"2022/09/01",
         "link":""
     }
 ]
