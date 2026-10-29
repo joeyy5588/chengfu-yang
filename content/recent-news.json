@@ -1,50 +1,32 @@
 [
-    {
-        "icon":"bullhorn",
-        "title":"One paper have been accepted to COLM 2025! [Link]",
-        "date":"2025/07/07",
-        "link":"https://arxiv.org/abs/2507.20503"
-    },
-    {
-        "icon":"bullhorn",
-        "title":"One paper have been accepted to ICCV 2025! [Link]",
-        "date":"2025/06/26",
-        "link":"https://arxiv.org/abs/2411.18651"
-    },
-    {
-        "icon":"star",
-        "title":"Start my internship @ FAIR Perception",
-        "date":"2025/06/23",
-        "link":""
-    },
-    {
-        "icon":"bullhorn",
-        "title":"Two papers have been accepted to EMNLP 2024! [Link]",
-        "date":"2024/10/15",
-        "link":"https://arxiv.org/abs/2406.01495"
-    },
-    {
-        "icon":"bullhorn",
-        "title":"Check out our latest paper on a general model for task planning: [Link]",
-        "date":"2023/12/05",
-        "link":"https://arxiv.org/abs/2312.01097"
-    },
-    {
-        "icon":"bullhorn",
-        "title":"I'll be attending EMNLP 2023 to share my paper! [Link]",
-        "date":"2023/12/03",
-        "link":"https://arxiv.org/abs/2310.12344"
-    },
-    {
-        "icon":"bullhorn",
-        "title":"I'll be attending NeurIPS 2022 to share my paper! [Link]",
-        "date":"2022/11/28",
-        "link":"https://arxiv.org/abs/2209.12343"
-    },
-    {
-        "icon":"star",
-        "title":"Start my PhD journey @ UCLANLP.",
-        "date":"2022/09/01",
-        "link":""
-    }
+  {
+    "date": "2026/10/20",
+    "title": "OpenVLHarness is released — project, paper, code, and bring-your-own-MLLM demo are available.",
+    "link": "https://openvlharness.github.io/",
+    "icon": "paper"
+  },
+  {
+    "date": "2026/07/01",
+    "title": "Ctrl-R: Learning Structured Reasoning via Tractable Trajectory Control appears at ICML 2026 (Spotlight).",
+    "link": "https://proceedings.mlr.press/v306/kung26a.html",
+    "icon": "paper"
+  },
+  {
+    "date": "2026/06/01",
+    "title": "PE-AV: Pushing the Frontier of Audiovisual Perception appears at CVPR 2026.",
+    "link": "https://openaccess.thecvf.com/content/CVPR2026/html/Vyas_Pushing_the_Frontier_of_Audiovisual_Perception_with_Large-Scale_Multimodal_Correspondence_CVPR_2026_paper.html",
+    "icon": "paper"
+  },
+  {
+    "date": "2025/09/01",
+    "title": "Precedent-based multimodal guardrails appear at COLM 2025.",
+    "link": "https://arxiv.org/abs/2507.20503",
+    "icon": "paper"
+  },
+  {
+    "date": "2025/06/26",
+    "title": "Verbalized Representation Learning is accepted to ICCV 2025.",
+    "link": "https://openaccess.thecvf.com/content/ICCV2025/html/Yang_Verbalized_Representation_Learning_for_Interpretable_Few-Shot_Generalization_ICCV_2025_paper.html",
+    "icon": "paper"
+  }
 ]
