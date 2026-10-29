@@ -1,0 +1,268 @@
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{amsmath, amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{comment}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{times}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeExperienceEntry}[4]{%
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & #2
+    \end{tabular*}\par\nobreak
+    \ifstrempty{#3}{}{{\small #3\par\nobreak}}
+    {\small #4\par}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumePublicationHeading}[3]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small #1 & \small #2 \\
+    \end{tabular*}\vspace{-7pt}
+
+    \vspace{3pt}
+    \small \hspace*{0.05in} #3
+    \vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \Large\textbf{Cheng-Fu Yang} \\ 
+    \vspace{1pt}
+    \small \href{mailto:cfyang@cs.ucla.edu}{\underline{cfyang@cs.ucla.edu}} $|$ 
+    \href{https://scholar.google.com.tw/citations?user=cJ5oowQAAAAJ}{\underline{Google Scholar}} $|$
+    \href{https://joeyy5588.github.io/chengfu-yang/}{\underline{Home Page}} $|$
+    \href{https://github.com/joeyy5588}{\underline{GitHub}}
+\end{center}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Los Angeles}{Sep. 2022 -- Present}{}{}
+      \vspace{-8pt}
+      Ph.D. in Computer Science; Advisor: \textit{Kai-Wei Chang}
+
+    \resumeSubheading
+      {University of California, Los Angeles}{Sep. 2022 -- Mar. 2025}{}{}
+      \vspace{-8pt}
+      M.S. in Computer Science
+
+    \resumeSubheading
+      {National Taiwan University}{Sep. 2016 -- Jun. 2020}{}{}
+      \vspace{-8pt}
+      B.S. in Electrical Engineering
+  \resumeSubHeadingListEnd
+
+\section{Research Interests}
+
+\hspace*{0.15in} Multimodal agents for grounded perception, reasoning, and interaction.
+\vspace{4pt}
+
+\hspace*{0.15in} Representation learning for perception, planning, and embodied intelligence.
+
+\section{Research Experience}
+  \begin{itemize}[leftmargin=0.15in,label={},itemsep=5pt,topsep=2pt,parsep=0pt]
+    \resumeExperienceEntry
+      {Research Scientist Intern}
+      {Jun. 2026 -- Sep. 2026}
+      {Topic: Multimodal post-training / next-generation SAM}
+      {Meta, FAIR Communication \& Language; Mentors: \textit{Daniel Bolya, Chay Ryali}}
+
+    \resumeExperienceEntry
+      {Research Scientist Intern}
+      {Jun. 2025 -- Jan. 2026}
+      {Topic: Large-scale audiovisual correspondence learning / omni-modal pre-training (CVPR 2026)}
+      {Meta, FAIR Perception; Mentor: \textit{Bernie Huang}}
+
+    \resumeExperienceEntry
+      {Applied Scientist Intern}
+      {Jun. 2024 -- Sep. 2024}
+      {Topic: Precedent-based methods for customizable multimodal guardrails (COLM 2025)}
+      {Amazon AGI; Mentor: \textit{Weitong Ruan}}
+
+    \resumeExperienceEntry
+      {Applied Scientist Intern}
+      {Jun. 2023 -- Sep. 2023}
+      {Topic: Diffusion policies for embodied agents (NeurIPS OWA Workshop, 2024)}
+      {Amazon; Mentor: \textit{Feng Gao}}
+
+    \resumeExperienceEntry
+      {Research Intern}
+      {Apr. 2022 -- Jun. 2023}
+      {Topic: Representation learning for instruction-following agents (EMNLP 2023)}
+      {Microsoft Research; Mentor: \textit{Yen-Chun Chen}}
+
+    \resumeExperienceEntry
+      {Research Assistant}
+      {Sep. 2020 -- Jun. 2022}
+      {}
+      {National Taiwan University; Advisor: \textit{Yu-Chiang Frank Wang}}
+
+    \resumeExperienceEntry
+      {Collaborative Research Project Participant}
+      {Dec. 2020 -- Sep. 2021}
+      {Topic: Image (Novel Object) Captioning (NeurIPS 2022)}
+      {Carnegie Mellon University; Mentor: \textit{Yao-Hung Hubert Tsai}; Advisors: \textit{Ruslan Salakhutdinov}, \textit{Louis-Philippe Morency}}
+  \end{itemize}
+
+\section{Publications}
+
+    \resumeSubHeadingListStart
+
+      \resumePublicationHeading{Yu Zhou*, \textbf{Cheng-Fu Yang}*, Rui Sun*, Di Wu*, Sibo Peng, Mingyang Zhang, \\ Zhen Yang, Ruiyi Zhang, Nanyun Peng, Zhe Gan, Kai-Wei Chang.}{Under Submission}{\href{https://arxiv.org/abs/2610.26860}{``OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory''}}
+
+      \resumePublicationHeading{Po-Nien Kung, Zhen Yang, Jeffrey Luo, \textbf{Cheng-Fu Yang}, Haikang Deng, Zi-Yi Dou, \\
+      \hspace*{0.05in} Yinfei Yang, Nanyun Peng, Zhe Gan, Kai-Wei Chang.}{ICML 2026 ({Spotlight})}{\href{https://proceedings.mlr.press/v306/kung26a.html}{``Learning Structured Reasoning via Tractable Trajectory Control''}}
+
+     \resumePublicationHeading{Apoorv Vyas*, Heng-Jui Chang*, \textbf{Cheng-Fu Yang}*, Po-Yao Huang*, Luya Gao*, Julius Richter*, \\
+      \hspace*{0.05in} Sanyuan Chen, Matthew Le, Piotr Dollár, Christoph Feichtenhofer, Ann Lee, Wei-Ning Hsu.}{CVPR 2026}{\href{https://openaccess.thecvf.com/content/CVPR2026/html/Vyas_Pushing_the_Frontier_of_Audiovisual_Perception_with_Large-Scale_Multimodal_Correspondence_CVPR_2026_paper.html}{``Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning''}}
+
+     \resumePublicationHeading{\textbf{Cheng-Fu Yang}, Christos Christodoulopoulos, Thanh Tran, Weitong Ruan, Rahul Gupta and Kai-Wei Chang.}{COLM 2025}{\href{https://arxiv.org/abs/2507.20503}{``Customize Multi-modal RAI Guardrails with Precedent-based predictions''}}
+
+     \resumePublicationHeading{\textbf{Cheng-Fu Yang}, Da Yin, Wenbo Hu, Heng Ji, Nanyun Peng, Bolei Zhou and Kai-Wei Chang. }{ICCV 2025}{\href{https://openaccess.thecvf.com/content/ICCV2025/papers/Yang_Verbalized_Representation_Learning_for_Interpretable_Few-Shot_Generalization_ICCV_2025_paper.pdf}{``Verbalize Representation Learning For Interpretable Few-shot Generalization''}}
+
+      \resumePublicationHeading{\textbf{Cheng-Fu Yang}, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, and Feng Gao. }{NeurIPS OWA Workshop, 2024}{\href{https://arxiv.org/abs/2312.01097}{``Planning as Inpainting: A Generative Framework for Realistic Embodied Path Planning''}}
+
+      \resumePublicationHeading{Silin Meng, Yiwei Wang,~\textbf{Cheng-Fu Yang}, Nanyun Peng and Kai-Wei Chang.}{EMNLP, 2024}{\href{https://aclanthology.org/2024.findings-emnlp.60/}{``LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning''}}
+
+      \resumePublicationHeading{Zi-Yi Dou, \textbf{Cheng-Fu Yang}, Xueqing Wu, Kai-Wei Chang and Nanyun Peng.}{EMNLP, 2024}{\href{https://aclanthology.org/2024.emnlp-main.861/}{``Reflection-Reinforced Self-Training for Language Agents''}}
+
+      \resumePublicationHeading{\textbf{Cheng-Fu Yang}, Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, \\
+      \hspace*{0.05in} Yu-Chiang Frank Wang, and Kai-Wei Chang.}{EMNLP 2023}{\href{https://aclanthology.org/2023.emnlp-main.77/}{``LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following''}}
+
+      \resumePublicationHeading{Wan-Cyuan Fan, \textbf{Cheng-Fu Yang}, Chiao-An Yang and Yu-Chiang Frank Wang.}{AAAI 2023}{\href{https://ojs.aaai.org/index.php/AAAI/article/view/25134}{``Target-free Text-guided Image Manipulation''}}
+
+      \resumePublicationHeading{\textbf{Cheng-Fu Yang}, Yao-Hung Hubert Tsai, Wan-Cyuan Fan, Ruslan Salakhutdinov, \\
+      \hspace*{0.05in} Louis-Philippe Morency, and Yu-Chiang Frank Wang.}{NeurIPS 2022}{\href{https://proceedings.neurips.cc/paper_files/paper/2022/hash/2a8e6c09a1fd747e43a74710c79efdd5-Abstract-Conference.html}{``Paraphrasing is all you need for novel object captioning''}}
+
+      \resumePublicationHeading{Chih-Chun Yang, \textbf{Cheng-Fu Yang}, Wan-Cyuan Fan, and Yu-Chiang Frank Wang. }{AAAI 2022}{\href{https://ojs.aaai.org/index.php/AAAI/article/view/20210}{``Cross-Modal Mutual Learning for Audio-Visual Speech Recognition and Manipulation''}}
+
+      \resumePublicationHeading{Chiao-An Yang, Cheng-Yo Tan, Wan-Cyuan Fan, \textbf{Cheng-Fu Yang}, Meng-Lin Wu, and Yu-Chiang Frank Wang.}{CVPR 2022}{\href{https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Scene_Graph_Expansion_for_Semantics-Guided_Image_Outpainting_CVPR_2022_paper.pdf}{``Scene graph expansion for semantics-guided image outpainting''}}
+
+      \resumePublicationHeading{\textbf{Cheng-Fu Yang}*, Wan-Cyuan Fan*, Fu-En Yang, and Yu-Chiang Frank Wang.}{CVPR 2021}{\href{https://openaccess.thecvf.com/content/CVPR2021/html/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.html}{``Layouttransformer: Scene layout generation with conceptual and spatial diversity''}}
+
+    \resumeSubHeadingListEnd
+
+\vspace{-2pt}
+\hspace*{0.15in}{\footnotesize * Equal contribution.}
+
+\section{Awards and Honors}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {First Prize, Institute for Information Industry Enterprise Award at Meichu Hackathon}{Sep. 2019}
+       \resumeProjectHeading
+          {Dean's List, National Taiwan University}{Sep. 2019}
+      \resumeProjectHeading
+          {Dean's List, National Taiwan University}{Jan. 2017}
+    \resumeSubHeadingListEnd
+
+\section{Teaching Experience \& Professional Service}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Teaching Assistant, UCLA}{Fall 2025}{}{}
+      \vspace{-8pt}
+
+      Introduction to Machine Learning; Instructor: Kai-Wei Chang
+
+    \resumeSubheading
+      {Teaching Assistant, UCLA}{Fall 2024}{}{}
+      \vspace{-8pt}
+
+      Advanced Natural Language Processing; Instructor: Violet Peng
+
+    \resumeSubheading
+      {Teaching Assistant, UCLA}{Fall 2023}{}{}
+      \vspace{-8pt}
+
+      Introduction to Computer Science; Instructor: David Smallberg
+
+    \resumeSubheading
+      {Teaching Assistant, National Taiwan University}{Fall 2021}{}{}
+      \vspace{-8pt}
+
+      Deep Learning for Computer Vision; Instructor: Yu-Chiang Frank Wang
+
+    \resumeSubheading
+      {Teaching Assistant, National Taiwan University}{Fall 2019 \& Spring 2020}{}{}
+      \vspace{-8pt}
+
+      Machine Learning; Instructor: Hung-Yi Lee
+
+    \resumeSubheading
+      {Conference Reviewer}{}{}{}
+      \vspace{-8pt}
+
+      CVPR, ECCV, ICCV, NeurIPS, ACL, EMNLP, ICLR
+
+  \resumeSubHeadingListEnd
+
+\end{document}
