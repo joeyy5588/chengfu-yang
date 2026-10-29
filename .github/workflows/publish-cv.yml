@@ -37,7 +37,7 @@ jobs:
           pdflatex -interaction=nonstopmode -halt-on-error -output-directory=/tmp/cv-build cv-source.tex
           test -s /tmp/cv-build/cv-source.pdf
           cp /tmp/cv-build/cv-source.pdf content/cfyang_cv.pdf
-          pdfinfo content/cfyang_cv.pdf | grep Pages
+          grep -q "Output written on .* (2 pages," /tmp/cv-build/cv-source.log
       - name: Commit updated PDF to repository
         run: |
           git config user.name "github-actions[bot]"
