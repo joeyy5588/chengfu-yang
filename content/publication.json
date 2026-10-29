@@ -1,158 +1,150 @@
 [
-    {
-        "year" : 2025, 
-        "paper_title" : "Customize Multi-modal RAI Guardrails with Precedent-based predictions",
-        "author_list" : "Cheng-Fu Yang, Thanh Tran, Christos Christodoulopoulos, Weitong Ruan, Rahul Gupta, Kai-Wei Chang",
-        "conference" : "COLM 2025",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2507.20503",
-            "code" : "https://github.com/joeyy5588/Customize-Guardrail",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2025, 
-        "paper_title" : "Verbalized Representation Learning for Interpretable Few-Shot Generalization",
-        "author_list" : "Cheng-Fu Yang, Da Yin, Wenbo Hu, Heng Ji, Nanyun Peng, Bolei Zhou, Kai-Wei Chang",
-        "conference" : "ICCV 2025",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://www.arxiv.org/abs/2411.18651",
-            "code" : "https://github.com/joeyy5588/VRL/tree/main",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2024, 
-        "paper_title" : "Re-ReST: Reflection-Reinforced Self-Training for Language Agents",
-        "author_list" : "Zi-Yi Dou, Cheng-Fu Yang, Xueqing Wu, Kai-Wei Chang, Nanyun Peng",
-        "conference" : "EMNLP 2024",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2406.01495",
-            "code" : "https://github.com/PlusLabNLP/Re-ReST",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2024, 
-        "paper_title" : "LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning",
-        "author_list" : "Silin Meng, Yiwei Wang, Cheng-Fu Yang, Nanyun Peng, Kai-Wei Chang",
-        "conference" : "EMNLP 2024",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2407.02511",
-            "code" : "",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2024, 
-        "paper_title" : "Planning as In-Painting: A Diffusion-Based Embodied Task Planning Framework for Environments under Uncertainty",
-        "author_list" : "Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao",
-        "conference" : "NeurIPS OWA Workshop 2024",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2312.01097",
-            "code" : "https://github.com/joeyy5588/planning-as-inpainting",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2023, 
-        "paper_title" : "LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following",
-        "author_list" : "Cheng-Fu Yang, Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, Yu-Chiang Frank Wang, Kai-Wei Chang",
-        "conference" : "EMNLP 2023",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2310.12344",
-            "code" : "https://github.com/joeyy5588/LACMA",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    
-    {
-        "year" : 2023, 
-        "paper_title" : "Target-free Text-guided Image Manipulation",
-        "author_list" : "Wan-Cyuan Fan, Cheng-Fu Yang, Qiao-An Yang, Yu-Chiang Frank Wang",
-        "conference" : "AAAI 2023",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2211.14544",
-            "code" : "",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2022, 
-        "paper_title" : "Scene Graph Expansion for Semantics-Guided Image Completion",
-        "author_list" : "Qiao-An Yang, Cheng-Fu Yang, Wan-Cyuan Fan, Cheng-Yo Tan, Meng-Lin Wu, Yu-Chiang Frank Wang",
-        "conference" : "CVPR 2022",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2205.02958",
-            "code" : "",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2022, 
-        "paper_title" : "Paraphrasing is all you need for Novel Object Captioning",
-        "author_list" : "Cheng-Fu Yang, Yao-Hung Hubert Tsai, Wan-Cyuan Fan, Yu-Chiang Frank Wang, Louis-Philippe Morency, Ruslan Salakhutdinov",
-        "conference" : "NeurIPS 2022",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://arxiv.org/abs/2209.12343",
-            "code" : "https://github.com/joeyy5588/P2C",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2022, 
-        "paper_title" : "Modal Mutual Learning for Audio-Visual Speech Recognition and Manipulation",
-        "author_list" : "Chih-Chun Yang, Cheng-Fu Yang, Wan-Cyuan Fan and Yu-Chiang Frank Wang",
-        "conference" : "AAAi 2022",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://ojs.aaai.org/index.php/AAAI/article/view/20210",
-            "code" : "",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
-    },
-    {
-        "year" : 2021, 
-        "paper_title" : "LayoutTransformer: Scene Layout Generation with Conceptual and Spatial Diversity",
-        "author_list" : "Cheng-Fu Yang, Wan-Cyuan Fan, Fu-En Yang and Yu-Chiang Frank Wang",
-        "conference" : "CVPR 2021",
-        "accept_rate" : "",
-        "links" : {
-            "paper" : "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.html",
-            "code" : "https://github.com/davidhalladay/LayoutTransformer",
-            "bibtex" : "",
-            "slides" : "",
-            "talk" : ""
-        }
+  {
+    "year": 2026,
+    "paper_title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+    "author_list": "Yu Zhou*, Cheng-Fu Yang*, Rui Sun*, Di Wu*, Sibo Peng, Mingyang Zhang, Zhen Yang, Ruiyi Zhang, Nanyun Peng, Zhe Gan, Kai-Wei Chang",
+    "conference": "Preprint · 2026 (under submission)",
+    "featured": true,
+    "summary": "A general multimodal agent harness with a capability layer and persistent multimodal memory. Consistent gains across 22 benchmarks without fine-tuning the backbone.",
+    "accept_rate": "",
+    "links": {
+      "project": "https://openvlharness.github.io/",
+      "demo": "https://openvlharness.github.io/#demo",
+      "paper": "https://arxiv.org/abs/2610.26860",
+      "code": "https://github.com/uclanlp/OpenVLHarness",
+      "data": "https://huggingface.co/datasets/uclanlp/OpenVLHarness-Evaluation-Datasets"
     }
+  },
+  {
+    "year": 2026,
+    "paper_title": "Learning Structured Reasoning via Tractable Trajectory Control",
+    "author_list": "Po-Nien Kung, Zhen Yang, Jeffrey Luo, Cheng-Fu Yang, Haikang Deng, Zi-Yi Dou, Yinfei Yang, Nanyun Peng, Zhe Gan, Kai-Wei Chang",
+    "conference": "ICML 2026 · Spotlight",
+    "featured": true,
+    "summary": "Ctrl-R guides model rollouts toward structured reasoning patterns, improving exploration and learning.",
+    "links": {
+      "paper": "https://proceedings.mlr.press/v306/kung26a.html"
+    }
+  },
+  {
+    "year": 2026,
+    "paper_title": "Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning",
+    "author_list": "Apoorv Vyas*, Heng-Jui Chang*, Cheng-Fu Yang*, Po-Yao Huang*, Luya Gao*, Julius Richter*, Sanyuan Chen, Matthew Le, Piotr Dollár, Christoph Feichtenhofer, Ann Lee, Wei-Ning Hsu",
+    "conference": "CVPR 2026",
+    "featured": true,
+    "summary": "PE-AV learns joint audio, video, and text representations with large-scale multimodal correspondence learning.",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Vyas_Pushing_the_Frontier_of_Audiovisual_Perception_with_Large-Scale_Multimodal_Correspondence_CVPR_2026_paper.html"
+    }
+  },
+  {
+    "year": 2025,
+    "paper_title": "Customize Multi-modal RAI Guardrails with Precedent-based Predictions",
+    "author_list": "Cheng-Fu Yang, Christos Christodoulopoulos, Thanh Tran, Weitong Ruan, Rahul Gupta, Kai-Wei Chang",
+    "conference": "COLM 2025",
+    "featured": true,
+    "summary": "Customizable multimodal guardrails that adapt to policies through precedent-based reasoning.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.20503",
+      "code": "https://github.com/joeyy5588/Customize-Guardrail"
+    }
+  },
+  {
+    "year": 2025,
+    "paper_title": "Verbalized Representation Learning for Interpretable Few-Shot Generalization",
+    "author_list": "Cheng-Fu Yang, Da Yin, Wenbo Hu, Heng Ji, Nanyun Peng, Bolei Zhou, Kai-Wei Chang",
+    "conference": "ICCV 2025",
+    "featured": true,
+    "summary": "Learning interpretable visual features expressed in language for strong few-shot generalization.",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/ICCV2025/html/Yang_Verbalized_Representation_Learning_for_Interpretable_Few-Shot_Generalization_ICCV_2025_paper.html",
+      "code": "https://github.com/joeyy5588/VRL"
+    }
+  },
+  {
+    "year": 2024,
+    "paper_title": "Planning as Inpainting: A Generative Framework for Realistic Embodied Path Planning",
+    "author_list": "Cheng-Fu Yang, Haoyang Xu, Te-Lin Wu, Xiaofeng Gao, Kai-Wei Chang, Feng Gao",
+    "conference": "NeurIPS OWA Workshop 2024",
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.01097",
+      "code": "https://github.com/joeyy5588/planning-as-inpainting"
+    }
+  },
+  {
+    "year": 2024,
+    "paper_title": "LLM-A*: Large Language Model Enhanced Incremental Heuristic Search on Path Planning",
+    "author_list": "Silin Meng, Yiwei Wang, Cheng-Fu Yang, Nanyun Peng, Kai-Wei Chang",
+    "conference": "EMNLP 2024",
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.02511"
+    }
+  },
+  {
+    "year": 2024,
+    "paper_title": "Re-ReST: Reflection-Reinforced Self-Training for Language Agents",
+    "author_list": "Zi-Yi Dou, Cheng-Fu Yang, Xueqing Wu, Kai-Wei Chang, Nanyun Peng",
+    "conference": "EMNLP 2024",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.01495",
+      "code": "https://github.com/PlusLabNLP/Re-ReST"
+    }
+  },
+  {
+    "year": 2023,
+    "paper_title": "LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following",
+    "author_list": "Cheng-Fu Yang, Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, Yu-Chiang Frank Wang, Kai-Wei Chang",
+    "conference": "EMNLP 2023",
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.12344",
+      "code": "https://github.com/joeyy5588/LACMA"
+    }
+  },
+  {
+    "year": 2023,
+    "paper_title": "Target-free Text-guided Image Manipulation",
+    "author_list": "Wan-Cyuan Fan, Cheng-Fu Yang, Chiao-An Yang, Yu-Chiang Frank Wang",
+    "conference": "AAAI 2023",
+    "links": {
+      "paper": "https://arxiv.org/abs/2211.14544"
+    }
+  },
+  {
+    "year": 2022,
+    "paper_title": "Paraphrasing Is All You Need for Novel Object Captioning",
+    "author_list": "Cheng-Fu Yang, Yao-Hung Hubert Tsai, Wan-Cyuan Fan, Ruslan Salakhutdinov, Louis-Philippe Morency, Yu-Chiang Frank Wang",
+    "conference": "NeurIPS 2022",
+    "links": {
+      "paper": "https://arxiv.org/abs/2209.12343",
+      "code": "https://github.com/joeyy5588/P2C"
+    }
+  },
+  {
+    "year": 2022,
+    "paper_title": "Cross-Modal Mutual Learning for Audio-Visual Speech Recognition and Manipulation",
+    "author_list": "Chih-Chun Yang, Cheng-Fu Yang, Wan-Cyuan Fan, Yu-Chiang Frank Wang",
+    "conference": "AAAI 2022",
+    "links": {
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/20210"
+    }
+  },
+  {
+    "year": 2022,
+    "paper_title": "Scene Graph Expansion for Semantics-Guided Image Outpainting",
+    "author_list": "Chiao-An Yang, Cheng-Yo Tan, Wan-Cyuan Fan, Cheng-Fu Yang, Meng-Lin Wu, Yu-Chiang Frank Wang",
+    "conference": "CVPR 2022",
+    "links": {
+      "paper": "https://arxiv.org/abs/2205.02958"
+    }
+  },
+  {
+    "year": 2021,
+    "paper_title": "LayoutTransformer: Scene Layout Generation with Conceptual and Spatial Diversity",
+    "author_list": "Cheng-Fu Yang*, Wan-Cyuan Fan*, Fu-En Yang, Yu-Chiang Frank Wang",
+    "conference": "CVPR 2021",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/CVPR2021/html/Yang_LayoutTransformer_Scene_Layout_Generation_With_Conceptual_and_Spatial_Diversity_CVPR_2021_paper.html",
+      "code": "https://github.com/davidhalladay/LayoutTransformer"
+    }
+  }
 ]
-
